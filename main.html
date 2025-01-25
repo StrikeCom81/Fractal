@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fractal Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="canvas1"></canvas>
+    <div id="controls">
+        <button id="randomizeButton">Randomize</button>
+        <button id="resetButton">Reset</button>
+        <div class="slider-control">
+            <label for="spread">Spread: </label>
+            <input id="spread" type="range" min="-3" max="3" step="0.1" value="1">
+        </div>
+        <div class="slider-control">
+            <label for="sides">Sides: </label>
+            <input id="sides" type="range" min="2" max="15" step="1" value="6">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
